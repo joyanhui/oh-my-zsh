@@ -5,6 +5,5 @@
 - 禁止魔法函数
 ## 删除本地并快速启用
 
-‍```
-sh -c "$(curl -fsSL https://ghproxy.com/https://raw.githubusercontent.com/joyanhui/oh-my-zsh/main/install.sh)"
-```
+‍sh -c "$(curl -fsSL https://ghproxy.com/https://raw.githubusercontent.com/joyanhui/oh-my-zsh/main/install.sh)"
+
