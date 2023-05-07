@@ -21,6 +21,8 @@ ZSH_THEME="josh"
 # Uncomment the following line to use case-sensitive completion.
 # CASE_SENSITIVE="true"
 
+# 禁止ohmyzsh自动更新
+DISABLE_UPDATE_PROMPT="true"
 # Uncomment the following line to use hyphen-insensitive completion.
 # Case-sensitive completion must be off. _ and - will be interchangeable.
 # HYPHEN_INSENSITIVE="true"
