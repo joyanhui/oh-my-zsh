@@ -4,9 +4,9 @@
 - 关闭自动更新
 - 禁止魔法函数
 ## 删除本地并快速启用
-```
-rm -rf .oh-my-zsh && rm main.zip 
+‍```
+rm -rf .oh-my-zsh && rm main.zip &&rm -rf .zshrc
 curl -o main.zip https://ghproxy.com/https://github.com/joyanhui/oh-my-zsh/archive/refs/heads/main.zip
-mv oh-my-zsh-main/.oh-my-zsh  . 
-rm -rf .zshrc &&cp oh-my-zsh-main/.zshrc .&& rm main.zip
-```
+unzip main.zip && mv oh-my-zsh-main/.oh-my-zsh  . 
+cp oh-my-zsh-main/.zshrc .&& rm main.zip
+‍```
