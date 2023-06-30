@@ -1,3 +1,5 @@
+#!/bin/bash
+
 cd
 rm -rf .oh-my-zsh && rm main.zip &&rm -rf .zshrc
 wget https://github.com/joyanhui/oh-my-zsh/archive/refs/heads/main.zip -O main.zip
