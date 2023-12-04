@@ -8,7 +8,7 @@
 - 去掉josh2主题的emoji防止在无字体环境的方块。
 ## 删除本地并快速启用
  `apt installl curl unzip zsh`
- 脚本会删除 你本地的 .oh-my-zsh 和.zshrc 
+ 脚本会删除 你本地的 当前用户的 .oh-my-zsh 和.zshrc 
 ```sh
 export GhProxy=http://mirror.ghproxy.com/
 curl  -L -e  '; auto' -fsSL \
