@@ -1,6 +1,6 @@
 #!/bin/bash
 
-cd ～
+cd ~
 rm -rf .oh-my-zsh && rm -rf  yhZsh.zip .zshrc
 wget http://mirror.ghproxy.com/https://github.com/joyanhui/oh-my-zsh/archive/refs/heads/main.zip -O yhZsh.zip
 unzip yhZsh.zip 
