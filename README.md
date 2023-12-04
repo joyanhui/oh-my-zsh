@@ -7,6 +7,7 @@
 
 
 ```sh
-curl -fsSL http://mirror.ghproxy.com/https://github.com/joyanhui/oh-my-zsh/raw/main/install.sh | sh
+export GhProxy=http://mirror.ghproxy.com/
+curl -fsSL ${GhProxy}/https://github.com/joyanhui/oh-my-zsh/raw/main/install.sh | sh
 
 ```
