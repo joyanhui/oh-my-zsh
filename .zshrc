@@ -108,4 +108,4 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 # 解决alacritty远程的vim nano top等无法打开的问题
-alias ssh="TERM=xterm-256color $(which ssh)"
+# alias ssh="TERM=xterm-256color $(which ssh)"
