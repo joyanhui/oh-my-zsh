@@ -4,7 +4,8 @@
   - 后已注释掉 更换konsole
 - 关闭自动更新
 - 禁止魔法函数
-- 去掉josh2主题的emoji防止在服务器环境
+- 禁止每次启动的时候自动从oh-my-zh官方仓库更新
+- 去掉josh2主题的emoji防止在无字体环境的方块。
 ## 删除本地并快速启用
  `apt installl curl unzip zsh`
  脚本会删除 你本地的 .oh-my-zsh 和.zshrc 
