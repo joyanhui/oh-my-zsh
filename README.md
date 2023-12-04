@@ -11,7 +11,7 @@
  脚本会删除 你本地的 .oh-my-zsh 和.zshrc 
 ```sh
 export GhProxy=http://mirror.ghproxy.com/
-curl -fsSL ${GhProxy}/https://github.com/joyanhui/oh-my-zsh/raw/main/install.sh | sh
+curl -fsSL ${GhProxy}https://github.com/joyanhui/oh-my-zsh/raw/main/install.sh | sh
 #echo zsh >> .bashrc
 ```
 GhProxy 为github 国内代理地址，ghproxy.com太多人使用可能失效连不上，请换其他的基于hunshcn/gh-proxy的代理
