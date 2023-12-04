@@ -5,4 +5,8 @@
 - 禁止魔法函数
 ## 删除本地并快速启用
 
-https://raw.githubusercontent.com/joyanhui/oh-my-zsh/main/install.sh
+
+```sh
+curl -fsSL http://mirror.ghproxy.com/https://github.com/joyanhui/oh-my-zsh/raw/main/install.sh | sh
+
+```
