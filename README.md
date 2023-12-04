@@ -7,6 +7,7 @@
 - 去掉josh2主题的emoji防止在服务器环境
 ## 删除本地并快速启用
  `apt installl curl unzip zsh`
+ 脚本会删除 你本地的 .oh-my-zsh 和.zshrc 
 ```sh
 export GhProxy=http://mirror.ghproxy.com/
 curl -fsSL ${GhProxy}/https://github.com/joyanhui/oh-my-zsh/raw/main/install.sh | sh
