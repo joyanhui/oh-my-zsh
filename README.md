@@ -10,7 +10,7 @@
  `apt installl curl unzip zsh`
  脚本会删除 你本地的 当前用户的 .oh-my-zsh 和.zshrc 
 ```sh
-export GhProxy=http://mirror.ghproxy.com/
+export GhProxy=https://mirror.ghproxy.com/
 curl  -L -e  '; auto' -fsSL \
    ${GhProxy}https://raw.githubusercontent.com/joyanhui/oh-my-zsh/main/install.sh | sh
 #echo zsh >> .bashrc
