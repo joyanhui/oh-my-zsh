@@ -108,4 +108,18 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 # 解决alacritty远程的vim nano top等无法打开的问题
-# alias ssh="TERM=xterm-256color $(which ssh)"
+
+#alias ssh="TERM=xterm-256color $(which ssh)"
+
+#[ "$TERM" = "xterm-kitty" ] && alias ssh="kitty +kitten ssh"
+
+alias nvim='/opt/nvim.appimage'
+alias nano='nvim'
+alias vim='nvim'
+alias vi='nvim'
+
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+___MY_VMOPTIONS_SHELL_FILE="${HOME}/.jetbrains.vmoptions.sh"; if [ -f "${___MY_VMOPTIONS_SHELL_FILE}" ]; then . "${___MY_VMOPTIONS_SHELL_FILE}"; fi
+
