@@ -114,7 +114,7 @@ source $ZSH/oh-my-zsh.sh
 #[ "$TERM" = "xterm-kitty" ] && alias ssh="kitty +kitten ssh"
 
 alias nvim='/opt/nvim.appimage'
-alias nano='nvim'
+#alias nano='nvim'
 alias vim='nvim'
 alias vi='nvim'
 
