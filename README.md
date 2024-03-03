@@ -1,3 +1,8 @@
+因为分散管理不方便所以合并到 [LeiDotFile](https://github.com/joyanhui/LeiDotFile) 的 zsh 配置下
+并且采用手工配置 不再基于oh-my-zsh，新版尽量保证和oh-my-zsh一致
+
+这里不再更新
+
 # 主要是为了快速启用 .oh-my-zsh
 ## 主要自定义项
 - 处理alacritty的问题
